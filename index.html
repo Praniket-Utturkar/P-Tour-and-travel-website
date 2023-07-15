@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive tour and travel agency website design tutorial</title>
+
+    
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/5d2eedccf3.js" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+        
+        <a href="#" class="logo"><span>p </span>tours & travels</a>
+       
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+         
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    
+
+    <!-- home section starts  -->
+   
+   
+
+   
+        
+        
+        
+        <div id="home" >
+        <div class="slideshow-container">
+           
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/pexels-alex-azabache-3757144.jpg" style="width:100%">
+                <div class="text">adventure is worthwhile</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/pexels-pixabay-327394.jpg" style="width:100%">
+                <div class="text">dicover new places with us,</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/pexels-pixabay-46148.jpg" style="width:100%">
+                <div class="text">travelling is fun </div>
+            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center" class="dotrow">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+   
+
+       
+
+        
+    </div>
+
+        <!-- home section ends -->
+
+        <!-- book section starts  -->
+
+        <section class="book" id="book">
+
+            <h1 class="heading">
+               <span>Book Now</span>
+            </h1>
+
+            <div class="row">
+
+                <div class="image">
+                    <img src="images/simon-maage-C9dhUVP-o6w-unsplash.jpg" alt="">
+                </div>
+
+                <form action="book_form.php" method="post">
+                    <div class="inputBox">
+                        <h3>where to</h3>
+                        <input type="text" placeholder="place name" name="name">
+                    </div>
+                    <div class="inputBox">
+                        <h3>how many</h3>
+                        <input type="number" placeholder="number of guests" name="guests">
+                    </div>
+                    <div class="inputBox">
+                        <h3>arrivals</h3>
+                        <input type="date" name="arrivals">
+                    </div>
+                    <div class="inputBox">
+                        <h3>leaving</h3>
+                        <input type="date" name="leaving">
+                    </div>
+                    <input type="submit" class="btn" value="book now" name="send"  >
+                </form>
+
+            </div>
+
+        </section>
+
+        <!-- book section ends -->
+
+        <!-- packages section starts  -->
+
+        <section class="packages" id="packages">
+
+            <h1 class="heading">
+              <span>packages</span>
+            </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/p-1.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                        <p>Mumbai (formerly called Bombay) is a densely populated city on India’s west coast.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#book" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/zq-lee-DcyL0IoCY0A-unsplash.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Dubai </h3>
+                        <p>Dubai is a city and emirate in the United Arab Emirates known for ultramodern architecture. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#book" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/p-3.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                        <p>Sydney, the capital of New South Wales, Australia. It is Australia's oldest and largest city .</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#book" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/p-4.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                        <p>Paris, city and capital of France, situated in the north-central part of the country.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#book" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/p-5.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                        <p>Tokyo is known for iconic landmarks like the Tokyo Skytree and Shibuya Crossing.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#book" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/p-6.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> eygpt </h3>
+                        <p>Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#book" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/joshua-ang-Gf_KqXHU-PY-unsplash.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> singapore </h3>
+                        <p>Singapore, officially the Republic of Singapore, is a sovereign island country.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#book" class="btn">book now</a>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <img src="images/abhishek-prasad-ayFW56Rz5Cs-unsplash.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Kerala </h3>
+                        <p>Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#book" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/leila-azevedo-o6UVPje41Lg-unsplash.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Switzerland </h3>
+                        <p>Switzerland is a mountainous Central European country, home to numerous lakes, and villages.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#book" class="btn">book now</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- packages section ends -->
+
+        <!-- services section starts  -->
+
+        <section class="services" id="services">
+
+            <h1 class="heading">
+               <span>services</span>
+            </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <i class="fas fa-hotel"></i>
+                    <h3>affordable hotels</h3>
+                    <p>There are so many affordable and cheap hotels with best facilities provided during the trip and travel.Rooms are modern and clean.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Delicious food</h3>
+                    <p>The food served is hygenic and tasty.There are various varieties of dishes available like Italian,chinese,south indian ,north indian</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>safety guide</h3>
+                    <p>All the safety rules and regulations are followed strictly during the trip.All the staff follows the covid-19 preventions rules.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3>around the world</h3>
+                    <p>p tours and travels gives people the opportunity to travel all around the world in afforadable budget.It has various trip destinations to explore.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-plane"></i>
+                    <h3>fastest travel</h3>
+                    <p>We make your journey faster and comfortable so that you can have more time to enjoy the destinations and explore new things. </p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-hiking"></i>
+                    <h3>adventures</h3>
+                    <p>We provide various adventure activities as well like camping,skydiving,rock climbing,paragliding,sky swinging,skiing,hiking,rafting.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- services section ends -->
+
+        <!-- review section starts  -->
+
+        <section class="gallery" id="gallery">
+
+            <h1 class="heading">
+               <span>review</span>
+            </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>The places where I travelled were amazing and I learned new things and explored new places .</p>
+                      
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <div class="content">
+                        <h3>Good management</h3>
+                        <p>management is good and all the staff is friendly and caring.Good hospitality.</p>
+                      
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pic-5.png" alt="">
+                    <div class="content">
+                        <h3>Affordable price</h3>
+                        <p>the packages provided are of reasonable and affordable prizes which is a plus point .</p>
+                      
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <!-- review section ends -->
+
+      
+        <!-- contact section starts  -->
+
+        <section class="contact" id="contact">
+
+            <h1 class="heading">
+              <span>contact us</span>
+            </h1>
+
+            <div class="row">
+
+                <div class="image">
+                    <img src="images/michal-biernat-h0xEUQXzU38-unsplash.jpg" alt="">
+                </div>
+
+                <form action="contact_form.php" method="post">
+                    <div class="inputBox">
+                        <input type="text" placeholder="name" name="name">
+                        <input type="email" placeholder="email" name="email">
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" placeholder="number" name="number">
+                        <input type="text" placeholder="subject" name="subject" >
+                    </div>
+                    <textarea placeholder="message" name="message" id="" cols="30" rows="10" ></textarea>
+                    <input type="submit" class="btn" value="send message" name="send">
+                </form>
+
+            </div>
+
+        </section>
+
+        <!-- contact section ends -->
+
+       
+
+        <!-- footer section  -->
+
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>about us</h3>
+                    <p>P Tours and Travels is the World's leading Tours and Travel agency with almost 500 employees working.It was established in 2001.</p>
+                </div>
+                <div class="box">
+                    <h3>branch locations</h3>
+                    <a href="#">india</a>
+                    <a href="#">USA</a>
+                    <a href="#">japan</a>
+                    <a href="#">france</a>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#">home</a>
+                    <a href="#">book</a>
+                    <a href="#">packages</a>
+
+                    <a href="#">services</a>
+                    <a href="#">review</a>
+                    <a href="#">contact</a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#"><i class="fa-brands fa-facebook-square"></i> facebook</a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i> instagram</a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i> twitter</a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i> linkedin</a>
+                </div>
+
+            </div>
+
+            <h1 class="credit"> created by <span> praniket utturkar </span> | all rights reserved! </h1>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        <!-- custom js file link  -->
+        <script src="js/script.js"></script>
+
+    </body>
+ 
+</html>
+
+
